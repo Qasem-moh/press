@@ -1,0 +1,24 @@
+.imglogo {
+  z-index: 100000;
+  width: 90px;
+  height: 60px;
+  overflow: visible;
+  margin: 0px 20px 0px 0px;
+}
+.lorm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  height: 50vh;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#card {
+  margin: 20px;
+  width: 300px;
+}

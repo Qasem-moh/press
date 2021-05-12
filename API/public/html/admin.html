@@ -1,0 +1,161 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="press,zain,Zain,news,AOU,Arab Open Universty,code">
+    <meta name="description" content="Web site for News">
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+rel="stylesheet"/>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+    <!-- Add logo-->
+   <link rel="shortcut icon" href="../img/yy.png" type="image/x-icon">
+   <!--Externail css file-->
+  <!-- <link rel="stylesheet" href="../css/index.css"> -->
+ 
+  <link rel="stylesheet" href="/css/admin">
+    <!--Add Normalize.css-->
+    <!-- <link rel="stylesheet" href="../css/Normalize.css"> -->
+    <title>Zain-Press</title>
+</head>
+<body>
+    <!--Header Page-->
+
+    <header >
+        <!--Navbar -->
+        <nav style="background: #396592 !important;" class="mb-1 navbar navbar-expand-lg navbar-dark orange lighten-1">
+                <a class="navbar-brand" href="#" <i class="fa fa-scribd" aria-hidden="true"></i>Zain-Press</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+                aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="../html/index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/world/">World News</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/sport/">sports news</a>
+                    </li>
+        
+                    <li class="nav-item">
+                            <a class="nav-link" href="/covid-19">COVID-19</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/report/">Reports</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about/">About Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto nav-flex-icons">
+                    <li class="nav-item avatar">
+                    <a class="nav-link p-0" href="#">
+                        <img src="/fav" class="rounded-circle z-depth-0 imglogo"
+                        alt="avatar image" height="35">
+                    </a>
+                    </li>
+                </ul>
+                </div>
+        </nav>
+    
+   </header>
+    <main>
+        <section class="cards" id="cards">
+          
+
+        </section>
+        
+        <div class="add-art-dialog" id="dialog" hidden>
+            <div class="add-art-dialog-header">
+            <p>Add new article</p>    
+            <div><button type="button" class="close" aria-label="Close" id="close_dialog">
+                <span aria-hidden="true">&times;</span>
+              </button></div>
+            </div>
+            
+            <div class="add-art-dialog-form">
+
+                <div class="c"><div class="add-art-dialog-input"><label for="title">Title :</label>
+                    <input type="text" name="title" id="title" placeholder="title"></div>
+                <div class="add-art-dialog-input"><label for="image">Image :</label>
+                    <input type="url" name="image" id="image_url" placeholder="URL://"></div>
+                </div>
+                <div class="add-art-dialog-image">
+                    <img src="" alt="" id="image_preview">
+                </div>
+                </div>
+                <div class="add-art-dialog-text" >
+                    <textarea name="" id="content" cols="30" rows="10"></textarea>
+                </div>
+                <div class="add-art-dialog-footer" >
+                    <button type="button" class="btn btn-primary" id="post">Post</button>
+                </div>
+                </div>
+               <!-- edit dialog -->
+
+               <div class="edit-art-dialog" id="edit_dialog"  hidden>
+                <div class="edit-art-dialog-header">
+                <p>Edit article</p>    
+                <div><button type="button" class="close" aria-label="Close" id="close_dialog_edit">
+                    <span aria-hidden="true">&times;</span>
+                  </button></div>
+                </div>
+                
+                <div class="edit-art-dialog-form">
+    
+                    <div class="c"><div class="edit-art-dialog-input"><label for="title">Title :</label>
+                        <input type="text" name="title" id="edit_title" placeholder="title"></div>
+                    <div class="edit-art-dialog-input"><label for="image">Image :</label>
+                        <input type="url" name="image" id="edit_image_url" placeholder="URL://"></div>
+                    </div>
+                    <div class="add-art-dialog-image">
+                        <img src="" alt="" id="edit_image_preview">
+                    </div>
+                    </div>
+                    <div class="edit-art-dialog-text" >
+                        <textarea name="" id="edit_content" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="edit-art-dialog-footer" >
+                        <button type="button" class="btn btn-primary" id="save">Save</button>
+                    </div>
+        </section>
+        
+    </main>
+    <div class="add">
+        <button type="button" class="btn btn-primary" id="show_dialog">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"></path>
+</svg>
+            Add Post
+          </button>
+    </div>
+   
+
+   
+    <script src="/js/admin"></script>
+</body>
+</html>

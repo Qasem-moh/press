@@ -1,0 +1,145 @@
+.add-art-dialog {
+  overflow: hidden;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 60vw;
+  height: 80vh;
+  top: 10%;
+  left: 20%;
+  box-shadow: 0px 0px 10px 1px gray;
+  border-radius: 10px;
+}
+.add-art-dialog-header {
+  /* margin: 20px; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.add-art-dialog-form {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.add-art-dialog-input {
+  margin: 10px;
+}
+.add-art-dialog-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  background-color: gainsboro;
+}
+.add-art-dialog-text {
+  width: 100%;
+  height: 100%;
+}
+.add-art-dialog-text textarea {
+  width: 100%;
+  height: 100%;
+}
+.c {
+  width: 50%;
+  margin: 10px;
+}
+.add-art-dialog-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+}
+.add-art-dialog-image img {
+  width: 100%;
+}
+.add {
+  position: fixed;
+  z-index: 99999999999999;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px;
+}
+/* edit dialog */
+.edit-art-dialog {
+  overflow: hidden;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 60vw;
+  height: 80vh;
+  top: 10%;
+  left: 20%;
+  box-shadow: 0px 0px 10px 1px gray;
+  border-radius: 10px;
+}
+.edit-art-dialog-header {
+  /* margin: 20px; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.edit-art-dialog-form {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.edit-art-dialog-input {
+  margin: 10px;
+}
+.edit-art-dialog-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  background-color: gainsboro;
+}
+.edit-art-dialog-text {
+  width: 100%;
+  height: 100%;
+}
+.edit-art-dialog-text textarea {
+  width: 100%;
+  height: 100%;
+}
+.c {
+  width: 50%;
+  margin: 10px;
+}
+.edit-art-dialog-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+}
+.edit-art-dialog-image img {
+  width: 100%;
+}
+.save {
+  position: fixed;
+  z-index: 99999999999999;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#card {
+  margin: 20px;
+  width: 450px;
+}
